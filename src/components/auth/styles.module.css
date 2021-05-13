@@ -1,0 +1,46 @@
+.main_block{
+    max-width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid #000000;
+    background-color: #e8c4e8;
+    margin: 0 auto;
+    transform: translate(0%, 75%);
+}
+
+.lab5_okcancel {
+    margin-bottom: 20px;
+}
+
+.lab5_dialog1 {
+    /*background-color: darkgray;*/
+}
+
+.lab5_oknobtn {
+    width: 100%;
+    transform: translate(-32%, 0%);
+}
+
+.lab5_btn1 {
+    width: 200px;
+    background-color: #ece8e8 !important;
+}
+
+.lab5_btn1, .lab5_btnOk, .lab5_btnNo, .lab5_btnCancel {
+    border: 2px solid slategray !important;
+}
+
+.lab5_btnOk {
+    background-color: darkgreen !important;
+}
+
+.lab5_btnNo {
+    background-color: darkred !important;
+}
+.lab5_btnCancel {
+    background-color: #ff9933 !important;
+}
